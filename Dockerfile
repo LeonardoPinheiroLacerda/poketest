@@ -6,7 +6,7 @@ WORKDIR /app
 
 # Copiar o arquivo JAR para o container
 # Substitua `target/sua-aplicacao.jar` pelo caminho real do seu arquivo
-COPY target/untitled-1.0-SNAPSHOT.jar app.jar
+COPY target/testPoke-1.0-SNAPSHOT.jar app.jar
 
 # Comando para executar a aplicação
 ENTRYPOINT ["java", "-jar", "app.jar"]
